@@ -16,6 +16,15 @@
   --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
   --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--text-black-600);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--skin-color);
+}
 /* override custom css variables for dark theme */
 body.dark {
   --bg-black-900: #ffffff;
